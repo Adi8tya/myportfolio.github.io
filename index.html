@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Aditya's Portfolio </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="font-awesome.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+  </div>
+
+  <div class="overlay">
+  </div>
+
+  <div class="main hidden">
+    <div class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+          <nav class="nav">
+            <div class="nav-inner">
+              <ul>
+                <li><a href="#home" class="nav-item link-item">home</a></li>
+                <li><a href="#about" class="nav-item link-item">about</a></li>
+                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                <li><a href="#contact" class="nav-item link-item">contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <section class="home-section align-items-center" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="home-text">
+            <p>Hello, I'm</p>
+            <h1>Aditya Kumar</h1>
+            <h2>Software Developer</h2>
+            <a href="#about" class="btn link-item">more about me</a>
+            <a href="#portfolio" class="btn link-item">Portfolio</a>
+          </div>
+          <div class="home-img">
+            <div class="img-box">
+              <img src="img/profile-img.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section sec-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h1>About me</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="img/about-img.png" alt="about">
+            </div>
+          </div>
+          <div class="about-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto doloribus voluptatem, autem vero ab culpa debitis sunt cupiditate modi corrupti pariatur nemo laudantium dignissimos reprehenderit, recusandae perspiciatis praesentium facilis eos! Iusto nisi optio soluta repellat rem laboriosam laborum omnis consequuntur placeat ipsam aliquid ipsa, quaerat natus, labore dignissimos. Voluptates, corrupti.</p>
+            <h3>skills</h3>
+            <div class="skills">
+              <div class="skill-item">html</div>
+              <div class="skill-item">css</div>
+              <div class="skill-item">javascript</div>
+              <div class="skill-item">flutter</div>
+              <div class="skill-item">dart</div>
+              <div class="skill-item">java</div>
+              <div class="skill-item">c++</div>
+              <div class="skill-item">Angular</div>
+              <div class="skill-item">Bootstrap</div>
+            </div>
+
+            <div class="about-tabs">
+              <button type="button" class="tab-item active" data-target="#education">education</button>
+              <button type="button" class="tab-item" data-target="#experience">experience</button>
+            </div>
+
+            <div class="tab-content active" id="education">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2017-2021</span>
+                  <h4>bachelor of technology - <span>GNDU</span></h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda soluta exercitationem laboriosam id nobis totam</p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2013-2014</span>
+                  <h4>bachelor of technology - <span>GNDU</span></h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda soluta exercitationem laboriosam id nobis totam</p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2013-2014</span>
+                  <h4>bachelor of technology - <span>GNDU</span></h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda soluta exercitationem laboriosam id nobis totam</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="experience">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2013-2014</span>
+                  <h4>web Developer - <span>Nagarro</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quisquam? Aperiam quisquam veniam quae nisi? fhrj fhkrn fhkth</p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2013-2014</span>
+                  <h4>web Developer - <span>Nagarro</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quisquam? Aperiam quisquam veniam quae nisi? fhrj fhkrn fhkth</p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2013-2014</span>
+                  <h4>web Developer - <span>Nagarro</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quisquam? Aperiam quisquam veniam quae nisi? fhrj fhkrn fhkth</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="cv.pdf" target="_blank" class="btn">download cv</a>
+            <a href="#contact" class="btn link-item">contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-section sec-padding" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>recent work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/1.jpg" alt="thumb">
+            </div>
+            <h3 class="portfolio-item-title">Education course Website</h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, omnis eaque optio vitae, culpa, vel necessitatibus quos repellat voluptatum sint autem ut similique eius nam impedit doloremque! Culpa, reiciendis quae.</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 dec 2020</span></li>
+                  <li>technologies used - <span>Html, css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>view online - <span><a href="#" target="_blank">wwww.helloaditya.me</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/2.jpg" alt="thumb">
+            </div>
+            <h3 class="portfolio-item-title">Personal course Website</h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, omnis eaque optio vitae, culpa, vel necessitatibus quos repellat voluptatum sint autem ut similique eius nam impedit doloremque! Culpa, reiciendis quae.</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 dec 2020</span></li>
+                  <li>technologies used - <span>Bootstrap, css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>view online - <span><a href="#" target="_blank">wwww.helloaditya.me</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/3.jpg" alt="thumb">
+            </div>
+            <h3 class="portfolio-item-title">App landing page</h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, omnis eaque optio vitae, culpa, vel necessitatibus quos repellat voluptatum sint autem ut similique eius nam impedit doloremque! Culpa, reiciendis quae.</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 dec 2020</span></li>
+                  <li>technologies used - <span>Html, css, javascript</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>view online - <span><a href="#" target="_blank">wwww.helloaditya.me</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/4.jpg" alt="thumb">
+            </div>
+            <h3 class="portfolio-item-title">Restaurant Website</h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, omnis eaque optio vitae, culpa, vel necessitatibus quos repellat voluptatum sint autem ut similique eius nam impedit doloremque! Culpa, reiciendis quae.</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 dec 2020</span></li>
+                  <li>technologies used - <span>Html, css, Angular</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>view online - <span><a href="#" target="_blank">wwww.helloaditya.me</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/5.jpg" alt="thumb">
+            </div>
+            <h3 class="portfolio-item-title">Tour and travels Website</h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, omnis eaque optio vitae, culpa, vel necessitatibus quos repellat voluptatum sint autem ut similique eius nam impedit doloremque! Culpa, reiciendis quae.</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 dec 2020</span></li>
+                  <li>technologies used - <span>Html, css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>view online - <span><a href="#" target="_blank">wwww.helloaditya.me</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/6.jpg" alt="thumb">
+            </div>
+            <h3 class="portfolio-item-title">Movie booking</h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, omnis eaque optio vitae, culpa, vel necessitatibus quos repellat voluptatum sint autem ut similique eius nam impedit doloremque! Culpa, reiciendis quae.</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 dec 2020</span></li>
+                  <li>technologies used - <span>C#, Dotnet MVC, Angular</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>view online - <span><a href="#" target="_blank">wwww.helloaditya.me</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact-section sec-padding" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form>
+              <div class="row">
+                <div class="input-group">
+                  <input type="text" placeholder="Name" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <input type="email" placeholder="Email" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Subject" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <textarea placeholder="Message" class="input-control" required></textarea>
+                </div>
+                <div class="submit-btn">
+                  <button type="submit" class="btn">send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <h3>Email</h3>
+              <p>ak247000@gmail.com</p>
+            </div>
+            <div class="contact-info-item">
+              <h3>Phone</h3>
+              <p>+91-12345-12345</p>
+            </div>
+            <div class="contact-info-item">
+              <h3>follow me</h3>
+              <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-dribbble "></i></a>
+                <!-- <a href="#" target="_blank"><i class="fab "></i></a> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="portfolio-popup">
+    <div class="pp-inner">
+      <div class="pp-content">
+        <div class="pp-header">
+          <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+          <div class="pp-thumbnail">
+            <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+          </div>
+          <h3></h3>
+        </div>
+        <div class="pp-body">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<script src="script.js"></script>
+</body>
+</html>
