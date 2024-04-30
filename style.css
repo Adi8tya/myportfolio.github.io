@@ -389,6 +389,7 @@ button{
 
 .about-text .timeline-item h4 span{
     font-weight: 400;
+    color: var(--blue);
 }
 
 .about-text .timeline{
