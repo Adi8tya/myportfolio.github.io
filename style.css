@@ -483,6 +483,10 @@ button{
     align-items: center;
 }
 
+.tech-port{
+    color: var(--blue);
+}
+
 .pp-content{
     background-color: var(--white-alpha-25);
     padding: 30px;
