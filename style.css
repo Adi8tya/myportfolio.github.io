@@ -855,7 +855,7 @@ body.hide-scrolling{
 .bg-circles .circle-2{
     height: 80px;
     width: 80px;
-    background-color: var(--main-color);
+    background-color: var(--pink-light);
     left: 34%;
     top: 50%;
     opacity: 0.5;
